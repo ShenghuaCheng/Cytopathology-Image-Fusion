@@ -1,0 +1,1835 @@
+digraph {
+	graph [size="218.7,218.7"]
+	node [align=left fontsize=12 height=0.2 ranksep=0.1 shape=box style=filled]
+	2744796937128 [label=SoftmaxBackward fillcolor=darkolivegreen1]
+	2744796937688 -> 2744796937128
+	2744796937688 [label=ThnnConv2DBackward]
+	2744796938080 -> 2744796937688
+	2744796938080 [label=ThresholdBackward0]
+	2744796937856 -> 2744796938080
+	2744796937856 [label=AddBackward0]
+	2744836838568 -> 2744796937856
+	2744836838568 [label=NativeBatchNormBackward]
+	2744836837840 -> 2744836838568
+	2744836837840 [label=ThnnConv2DBackward]
+	2744836838064 -> 2744836837840
+	2744836838064 [label=ThresholdBackward0]
+	2744836838512 -> 2744836838064
+	2744836838512 [label=NativeBatchNormBackward]
+	2744836837728 -> 2744836838512
+	2744836837728 [label=ThnnConv2DBackward]
+	2744836837504 -> 2744836837728
+	2744836837504 [label=ThresholdBackward0]
+	2744960317032 -> 2744836837504
+	2744960317032 [label=NativeBatchNormBackward]
+	2744960317256 -> 2744960317032
+	2744960317256 [label=ThnnConv2DBackward]
+	2744960317480 -> 2744960317256
+	2744960317480 [label=UpsampleNearest2DBackward]
+	2744960317704 -> 2744960317480
+	2744960317704 [label=ThresholdBackward0]
+	2744960317816 -> 2744960317704
+	2744960317816 [label=NativeBatchNormBackward]
+	2744960317928 -> 2744960317816
+	2744960317928 [label=ThnnConv2DBackward]
+	2744960318152 -> 2744960317928
+	2744960318152 [label=ThresholdBackward0]
+	2744960318376 -> 2744960318152
+	2744960318376 [label=AddBackward0]
+	2744960318488 -> 2744960318376
+	2744960318488 [label=ThresholdBackward0]
+	2744960318656 -> 2744960318488
+	2744960318656 [label=AddBackward0]
+	2744960318768 -> 2744960318656
+	2744960318768 [label=ThresholdBackward0]
+	2744960318936 -> 2744960318768
+	2744960318936 [label=AddBackward0]
+	2744960319048 -> 2744960318936
+	2744960319048 [label=NativeBatchNormBackward]
+	2744960319216 -> 2744960319048
+	2744960319216 [label=ThnnConv2DBackward]
+	2744960319440 -> 2744960319216
+	2744960319440 [label=ThresholdBackward0]
+	2744835838192 -> 2744960319440
+	2744835838192 [label=NativeBatchNormBackward]
+	2744835838304 -> 2744835838192
+	2744835838304 [label=ThnnConv2DBackward]
+	2744835838528 -> 2744835838304
+	2744835838528 [label=ThresholdBackward0]
+	2744835838752 -> 2744835838528
+	2744835838752 [label=NativeBatchNormBackward]
+	2744835838864 -> 2744835838752
+	2744835838864 [label=ThnnConv2DBackward]
+	2744835839088 -> 2744835838864
+	2744835839088 [label=CatBackward]
+	2744835839312 -> 2744835839088
+	2744835839312 [label=ThresholdBackward0]
+	2744835839592 -> 2744835839312
+	2744835839592 [label=AddBackward0]
+	2744835839760 -> 2744835839592
+	2744835839760 [label=NativeBatchNormBackward]
+	2744835839928 -> 2744835839760
+	2744835839928 [label=ThnnConv2DBackward]
+	2744835840152 -> 2744835839928
+	2744835840152 [label=ThresholdBackward0]
+	2744835840376 -> 2744835840152
+	2744835840376 [label=NativeBatchNormBackward]
+	2744835840544 -> 2744835840376
+	2744835840544 [label=ThnnConv2DBackward]
+	2744835840768 -> 2744835840544
+	2744835840768 [label=ThresholdBackward0]
+	2744835840992 -> 2744835840768
+	2744835840992 [label=NativeBatchNormBackward]
+	2744835841160 -> 2744835840992
+	2744835841160 [label=ThnnConv2DBackward]
+	2744835841384 -> 2744835841160
+	2744835841384 [label=ThresholdBackward0]
+	2744835841608 -> 2744835841384
+	2744835841608 [label=AddBackward0]
+	2744835841776 -> 2744835841608
+	2744835841776 [label=NativeBatchNormBackward]
+	2744835841944 -> 2744835841776
+	2744835841944 [label=ThnnConv2DBackward]
+	2744835842232 -> 2744835841944
+	2744835842232 [label=ThresholdBackward0]
+	2744835842456 -> 2744835842232
+	2744835842456 [label=NativeBatchNormBackward]
+	2744835842624 -> 2744835842456
+	2744835842624 [label=ThnnConvDilated2DBackward]
+	2744835842848 -> 2744835842624
+	2744835842848 [label=ThresholdBackward0]
+	2744835843072 -> 2744835842848
+	2744835843072 [label=NativeBatchNormBackward]
+	2744835843240 -> 2744835843072
+	2744835843240 [label=ThnnConv2DBackward]
+	2744835841832 -> 2744835843240
+	2744835841832 [label=ThresholdBackward0]
+	2744835843632 -> 2744835841832
+	2744835843632 [label=AddBackward0]
+	2744835843800 -> 2744835843632
+	2744835843800 [label=NativeBatchNormBackward]
+	2744835843968 -> 2744835843800
+	2744835843968 [label=ThnnConv2DBackward]
+	2744835844192 -> 2744835843968
+	2744835844192 [label=ThresholdBackward0]
+	2744835844416 -> 2744835844192
+	2744835844416 [label=NativeBatchNormBackward]
+	2744835844584 -> 2744835844416
+	2744835844584 [label=ThnnConvDilated2DBackward]
+	2744835844808 -> 2744835844584
+	2744835844808 [label=ThresholdBackward0]
+	2744835845032 -> 2744835844808
+	2744835845032 [label=NativeBatchNormBackward]
+	2744835845200 -> 2744835845032
+	2744835845200 [label=ThnnConv2DBackward]
+	2744835843856 -> 2744835845200
+	2744835843856 [label=ThresholdBackward0]
+	2744835845592 -> 2744835843856
+	2744835845592 [label=AddBackward0]
+	2744835845760 -> 2744835845592
+	2744835845760 [label=NativeBatchNormBackward]
+	2744835845928 -> 2744835845760
+	2744835845928 [label=ThnnConv2DBackward]
+	2744835854408 -> 2744835845928
+	2744835854408 [label=ThresholdBackward0]
+	2744835854632 -> 2744835854408
+	2744835854632 [label=NativeBatchNormBackward]
+	2744835854800 -> 2744835854632
+	2744835854800 [label=ThnnConvDilated2DBackward]
+	2744835855024 -> 2744835854800
+	2744835855024 [label=ThresholdBackward0]
+	2744835855248 -> 2744835855024
+	2744835855248 [label=NativeBatchNormBackward]
+	2744835855416 -> 2744835855248
+	2744835855416 [label=ThnnConv2DBackward]
+	2744835855640 -> 2744835855416
+	2744835855640 [label=ThresholdBackward1]
+	2744835855864 -> 2744835855640
+	2744835855864 [label=AddBackward0]
+	2744835856032 -> 2744835855864
+	2744835856032 [label=NativeBatchNormBackward]
+	2744835856200 -> 2744835856032
+	2744835856200 [label=ThnnConv2DBackward]
+	2744835856424 -> 2744835856200
+	2744835856424 [label=ThresholdBackward1]
+	2744835856592 -> 2744835856424
+	2744835856592 [label=NativeBatchNormBackward]
+	2744835856760 -> 2744835856592
+	2744835856760 [label=ThnnConv2DBackward]
+	2744835856984 -> 2744835856760
+	2744835856984 [label=ThresholdBackward1]
+	2744835857152 -> 2744835856984
+	2744835857152 [label=NativeBatchNormBackward]
+	2744835857320 -> 2744835857152
+	2744835857320 [label=ThnnConv2DBackward]
+	2744835856088 -> 2744835857320
+	2744835856088 [label=ThresholdBackward1]
+	2744835857656 -> 2744835856088
+	2744835857656 [label=AddBackward0]
+	2744835857824 -> 2744835857656
+	2744835857824 [label=NativeBatchNormBackward]
+	2744835857992 -> 2744835857824
+	2744835857992 [label=ThnnConv2DBackward]
+	2744835858216 -> 2744835857992
+	2744835858216 [label=ThresholdBackward1]
+	2744835858384 -> 2744835858216
+	2744835858384 [label=NativeBatchNormBackward]
+	2744835858616 -> 2744835858384
+	2744835858616 [label=ThnnConv2DBackward]
+	2744835858840 -> 2744835858616
+	2744835858840 [label=ThresholdBackward1]
+	2744835859008 -> 2744835858840
+	2744835859008 [label=NativeBatchNormBackward]
+	2744835859176 -> 2744835859008
+	2744835859176 [label=ThnnConv2DBackward]
+	2744835857880 -> 2744835859176
+	2744835857880 [label=ThresholdBackward1]
+	2744835859512 -> 2744835857880
+	2744835859512 [label=AddBackward0]
+	2744835859680 -> 2744835859512
+	2744835859680 [label=NativeBatchNormBackward]
+	2744835859848 -> 2744835859680
+	2744835859848 [label=ThnnConv2DBackward]
+	2744835860072 -> 2744835859848
+	2744835860072 [label=ThresholdBackward1]
+	2744835860240 -> 2744835860072
+	2744835860240 [label=NativeBatchNormBackward]
+	2744835860408 -> 2744835860240
+	2744835860408 [label=ThnnConv2DBackward]
+	2744835860632 -> 2744835860408
+	2744835860632 [label=ThresholdBackward1]
+	2744835860800 -> 2744835860632
+	2744835860800 [label=NativeBatchNormBackward]
+	2744835860968 -> 2744835860800
+	2744835860968 [label=ThnnConv2DBackward]
+	2744835859736 -> 2744835860968
+	2744835859736 [label=ThresholdBackward1]
+	2744835861304 -> 2744835859736
+	2744835861304 [label=AddBackward0]
+	2744835861472 -> 2744835861304
+	2744835861472 [label=NativeBatchNormBackward]
+	2744835861640 -> 2744835861472
+	2744835861640 [label=ThnnConv2DBackward]
+	2744835861864 -> 2744835861640
+	2744835861864 [label=ThresholdBackward1]
+	2744835862032 -> 2744835861864
+	2744835862032 [label=NativeBatchNormBackward]
+	2744835862200 -> 2744835862032
+	2744835862200 [label=ThnnConv2DBackward]
+	2744835862424 -> 2744835862200
+	2744835862424 [label=ThresholdBackward1]
+	2744835866752 -> 2744835862424
+	2744835866752 [label=NativeBatchNormBackward]
+	2744835866920 -> 2744835866752
+	2744835866920 [label=ThnnConv2DBackward]
+	2744835861528 -> 2744835866920
+	2744835861528 [label=ThresholdBackward1]
+	2744835867256 -> 2744835861528
+	2744835867256 [label=AddBackward0]
+	2744835867424 -> 2744835867256
+	2744835867424 [label=NativeBatchNormBackward]
+	2744835867592 -> 2744835867424
+	2744835867592 [label=ThnnConv2DBackward]
+	2744835867816 -> 2744835867592
+	2744835867816 [label=ThresholdBackward1]
+	2744835867984 -> 2744835867816
+	2744835867984 [label=NativeBatchNormBackward]
+	2744835868152 -> 2744835867984
+	2744835868152 [label=ThnnConv2DBackward]
+	2744835868376 -> 2744835868152
+	2744835868376 [label=ThresholdBackward1]
+	2744835868544 -> 2744835868376
+	2744835868544 [label=NativeBatchNormBackward]
+	2744835868712 -> 2744835868544
+	2744835868712 [label=ThnnConv2DBackward]
+	2744835867480 -> 2744835868712
+	2744835867480 [label=ThresholdBackward1]
+	2744835869048 -> 2744835867480
+	2744835869048 [label=AddBackward0]
+	2744835869216 -> 2744835869048
+	2744835869216 [label=NativeBatchNormBackward]
+	2744835869384 -> 2744835869216
+	2744835869384 [label=ThnnConv2DBackward]
+	2744835869608 -> 2744835869384
+	2744835869608 [label=ThresholdBackward1]
+	2744835869776 -> 2744835869608
+	2744835869776 [label=NativeBatchNormBackward]
+	2744835869944 -> 2744835869776
+	2744835869944 [label=ThnnConv2DBackward]
+	2744835870168 -> 2744835869944
+	2744835870168 [label=ThresholdBackward1]
+	2744835870336 -> 2744835870168
+	2744835870336 [label=NativeBatchNormBackward]
+	2744835870504 -> 2744835870336
+	2744835870504 [label=ThnnConv2DBackward]
+	2744835874888 -> 2744835870504
+	2744835874888 [label=ThresholdBackward1]
+	2744835875056 -> 2744835874888
+	2744835875056 [label=AddBackward0]
+	2744835875224 -> 2744835875056
+	2744835875224 [label=NativeBatchNormBackward]
+	2744835875392 -> 2744835875224
+	2744835875392 [label=ThnnConv2DBackward]
+	2744835875616 -> 2744835875392
+	2744835875616 [label=ThresholdBackward1]
+	2744835875784 -> 2744835875616
+	2744835875784 [label=NativeBatchNormBackward]
+	2744835875952 -> 2744835875784
+	2744835875952 [label=ThnnConv2DBackward]
+	2744835876176 -> 2744835875952
+	2744835876176 [label=ThresholdBackward1]
+	2744835876344 -> 2744835876176
+	2744835876344 [label=NativeBatchNormBackward]
+	2744835876512 -> 2744835876344
+	2744835876512 [label=ThnnConv2DBackward]
+	2744835875280 -> 2744835876512
+	2744835875280 [label=ThresholdBackward1]
+	2744835876848 -> 2744835875280
+	2744835876848 [label=AddBackward0]
+	2744835877016 -> 2744835876848
+	2744835877016 [label=NativeBatchNormBackward]
+	2744835877184 -> 2744835877016
+	2744835877184 [label=ThnnConv2DBackward]
+	2744835877408 -> 2744835877184
+	2744835877408 [label=ThresholdBackward1]
+	2744835877576 -> 2744835877408
+	2744835877576 [label=NativeBatchNormBackward]
+	2744835877744 -> 2744835877576
+	2744835877744 [label=ThnnConv2DBackward]
+	2744835877968 -> 2744835877744
+	2744835877968 [label=ThresholdBackward1]
+	2744835878136 -> 2744835877968
+	2744835878136 [label=NativeBatchNormBackward]
+	2744835878304 -> 2744835878136
+	2744835878304 [label=ThnnConv2DBackward]
+	2744835877072 -> 2744835878304
+	2744835877072 [label=ThresholdBackward1]
+	2744835878640 -> 2744835877072
+	2744835878640 [label=AddBackward0]
+	2744835878808 -> 2744835878640
+	2744835878808 [label=NativeBatchNormBackward]
+	2744835883136 -> 2744835878808
+	2744835883136 [label=ThnnConv2DBackward]
+	2744835883360 -> 2744835883136
+	2744835883360 [label=ThresholdBackward1]
+	2744835883528 -> 2744835883360
+	2744835883528 [label=NativeBatchNormBackward]
+	2744835883696 -> 2744835883528
+	2744835883696 [label=ThnnConv2DBackward]
+	2744835883920 -> 2744835883696
+	2744835883920 [label=ThresholdBackward1]
+	2744835884088 -> 2744835883920
+	2744835884088 [label=NativeBatchNormBackward]
+	2744835884256 -> 2744835884088
+	2744835884256 [label=ThnnConv2DBackward]
+	2744835878864 -> 2744835884256
+	2744835878864 [label=ThresholdBackward1]
+	2744835884592 -> 2744835878864
+	2744835884592 [label=AddBackward0]
+	2744835884760 -> 2744835884592
+	2744835884760 [label=NativeBatchNormBackward]
+	2744835884928 -> 2744835884760
+	2744835884928 [label=ThnnConv2DBackward]
+	2744835885152 -> 2744835884928
+	2744835885152 [label=ThresholdBackward1]
+	2744835885320 -> 2744835885152
+	2744835885320 [label=NativeBatchNormBackward]
+	2744835885488 -> 2744835885320
+	2744835885488 [label=ThnnConv2DBackward]
+	2744835885712 -> 2744835885488
+	2744835885712 [label=ThresholdBackward1]
+	2744835885880 -> 2744835885712
+	2744835885880 [label=NativeBatchNormBackward]
+	2744835886048 -> 2744835885880
+	2744835886048 [label=ThnnConv2DBackward]
+	2744835886272 -> 2744835886048
+	2744835886272 [label=ThresholdBackward1]
+	2744835886440 -> 2744835886272
+	2744835886440 [label=AddBackward0]
+	2744835886608 -> 2744835886440
+	2744835886608 [label=NativeBatchNormBackward]
+	2744835886776 -> 2744835886608
+	2744835886776 [label=ThnnConv2DBackward]
+	2744835887000 -> 2744835886776
+	2744835887000 [label=ThresholdBackward1]
+	2744835891328 -> 2744835887000
+	2744835891328 [label=NativeBatchNormBackward]
+	2744835891496 -> 2744835891328
+	2744835891496 [label=ThnnConv2DBackward]
+	2744835891720 -> 2744835891496
+	2744835891720 [label=ThresholdBackward1]
+	2744835891888 -> 2744835891720
+	2744835891888 [label=NativeBatchNormBackward]
+	2744835892056 -> 2744835891888
+	2744835892056 [label=ThnnConv2DBackward]
+	2744835886664 -> 2744835892056
+	2744835886664 [label=ThresholdBackward1]
+	2744835892392 -> 2744835886664
+	2744835892392 [label=AddBackward0]
+	2744835892560 -> 2744835892392
+	2744835892560 [label=NativeBatchNormBackward]
+	2744835892728 -> 2744835892560
+	2744835892728 [label=ThnnConv2DBackward]
+	2744835892952 -> 2744835892728
+	2744835892952 [label=ThresholdBackward1]
+	2744835893120 -> 2744835892952
+	2744835893120 [label=NativeBatchNormBackward]
+	2744835893288 -> 2744835893120
+	2744835893288 [label=ThnnConv2DBackward]
+	2744835893512 -> 2744835893288
+	2744835893512 [label=ThresholdBackward1]
+	2744835893680 -> 2744835893512
+	2744835893680 [label=NativeBatchNormBackward]
+	2744835893848 -> 2744835893680
+	2744835893848 [label=ThnnConv2DBackward]
+	2744835892616 -> 2744835893848
+	2744835892616 [label=ThresholdBackward1]
+	2744835894184 -> 2744835892616
+	2744835894184 [label=AddBackward0]
+	2744835894352 -> 2744835894184
+	2744835894352 [label=NativeBatchNormBackward]
+	2744835894520 -> 2744835894352
+	2744835894520 [label=ThnnConv2DBackward]
+	2744835894744 -> 2744835894520
+	2744835894744 [label=ThresholdBackward1]
+	2744835894912 -> 2744835894744
+	2744835894912 [label=NativeBatchNormBackward]
+	2744835895080 -> 2744835894912
+	2744835895080 [label=ThnnConv2DBackward]
+	2744835903560 -> 2744835895080
+	2744835903560 [label=ThresholdBackward1]
+	2744835903728 -> 2744835903560
+	2744835903728 [label=NativeBatchNormBackward]
+	2744835903896 -> 2744835903728
+	2744835903896 [label=ThnnConv2DBackward]
+	2744835904120 -> 2744835903896
+	2744835904120 [label=MaxPool2DWithIndicesBackward]
+	2744835904288 -> 2744835904120
+	2744835904288 [label=ThresholdBackward1]
+	2744835904456 -> 2744835904288
+	2744835904456 [label=NativeBatchNormBackward]
+	2744835904624 -> 2744835904456
+	2744835904624 [label=ThnnConv2DBackward]
+	2744835904848 -> 2744835904624
+	2744835904848 [label="resnet_layer.0.weight
+ (64, 3, 7, 7)" fillcolor=lightblue]
+	2744835904680 -> 2744835904456
+	2744835904680 [label="resnet_layer.1.weight
+ (64)" fillcolor=lightblue]
+	2744835904736 -> 2744835904456
+	2744835904736 [label="resnet_layer.1.bias
+ (64)" fillcolor=lightblue]
+	2744835904176 -> 2744835903896
+	2744835904176 [label="resnet_layer.4.0.conv1.weight
+ (64, 64, 1, 1)" fillcolor=lightblue]
+	2744835903952 -> 2744835903728
+	2744835903952 [label="resnet_layer.4.0.bn1.weight
+ (64)" fillcolor=lightblue]
+	2744835904008 -> 2744835903728
+	2744835904008 [label="resnet_layer.4.0.bn1.bias
+ (64)" fillcolor=lightblue]
+	2744835903616 -> 2744835895080
+	2744835903616 [label="resnet_layer.4.0.conv2.weight
+ (64, 64, 3, 3)" fillcolor=lightblue]
+	2744835895136 -> 2744835894912
+	2744835895136 [label="resnet_layer.4.0.bn2.weight
+ (64)" fillcolor=lightblue]
+	2744835895192 -> 2744835894912
+	2744835895192 [label="resnet_layer.4.0.bn2.bias
+ (64)" fillcolor=lightblue]
+	2744835894800 -> 2744835894520
+	2744835894800 [label="resnet_layer.4.0.conv3.weight
+ (256, 64, 1, 1)" fillcolor=lightblue]
+	2744835894576 -> 2744835894352
+	2744835894576 [label="resnet_layer.4.0.bn3.weight
+ (256)" fillcolor=lightblue]
+	2744835894632 -> 2744835894352
+	2744835894632 [label="resnet_layer.4.0.bn3.bias
+ (256)" fillcolor=lightblue]
+	2744835894408 -> 2744835894184
+	2744835894408 [label=NativeBatchNormBackward]
+	2744835894688 -> 2744835894408
+	2744835894688 [label=ThnnConv2DBackward]
+	2744835904120 -> 2744835894688
+	2744835903672 -> 2744835894688
+	2744835903672 [label="resnet_layer.4.0.downsample.0.weight
+ (256, 64, 1, 1)" fillcolor=lightblue]
+	2744835894856 -> 2744835894408
+	2744835894856 [label="resnet_layer.4.0.downsample.1.weight
+ (256)" fillcolor=lightblue]
+	2744835895248 -> 2744835894408
+	2744835895248 [label="resnet_layer.4.0.downsample.1.bias
+ (256)" fillcolor=lightblue]
+	2744835894072 -> 2744835893848
+	2744835894072 [label="resnet_layer.4.1.conv1.weight
+ (64, 256, 1, 1)" fillcolor=lightblue]
+	2744835893904 -> 2744835893680
+	2744835893904 [label="resnet_layer.4.1.bn1.weight
+ (64)" fillcolor=lightblue]
+	2744835893960 -> 2744835893680
+	2744835893960 [label="resnet_layer.4.1.bn1.bias
+ (64)" fillcolor=lightblue]
+	2744835893568 -> 2744835893288
+	2744835893568 [label="resnet_layer.4.1.conv2.weight
+ (64, 64, 3, 3)" fillcolor=lightblue]
+	2744835893344 -> 2744835893120
+	2744835893344 [label="resnet_layer.4.1.bn2.weight
+ (64)" fillcolor=lightblue]
+	2744835893400 -> 2744835893120
+	2744835893400 [label="resnet_layer.4.1.bn2.bias
+ (64)" fillcolor=lightblue]
+	2744835893008 -> 2744835892728
+	2744835893008 [label="resnet_layer.4.1.conv3.weight
+ (256, 64, 1, 1)" fillcolor=lightblue]
+	2744835892784 -> 2744835892560
+	2744835892784 [label="resnet_layer.4.1.bn3.weight
+ (256)" fillcolor=lightblue]
+	2744835892840 -> 2744835892560
+	2744835892840 [label="resnet_layer.4.1.bn3.bias
+ (256)" fillcolor=lightblue]
+	2744835892616 -> 2744835892392
+	2744835892280 -> 2744835892056
+	2744835892280 [label="resnet_layer.4.2.conv1.weight
+ (64, 256, 1, 1)" fillcolor=lightblue]
+	2744835892112 -> 2744835891888
+	2744835892112 [label="resnet_layer.4.2.bn1.weight
+ (64)" fillcolor=lightblue]
+	2744835892168 -> 2744835891888
+	2744835892168 [label="resnet_layer.4.2.bn1.bias
+ (64)" fillcolor=lightblue]
+	2744835891776 -> 2744835891496
+	2744835891776 [label="resnet_layer.4.2.conv2.weight
+ (64, 64, 3, 3)" fillcolor=lightblue]
+	2744835891552 -> 2744835891328
+	2744835891552 [label="resnet_layer.4.2.bn2.weight
+ (64)" fillcolor=lightblue]
+	2744835891608 -> 2744835891328
+	2744835891608 [label="resnet_layer.4.2.bn2.bias
+ (64)" fillcolor=lightblue]
+	2744835887056 -> 2744835886776
+	2744835887056 [label="resnet_layer.4.2.conv3.weight
+ (256, 64, 1, 1)" fillcolor=lightblue]
+	2744835886832 -> 2744835886608
+	2744835886832 [label="resnet_layer.4.2.bn3.weight
+ (256)" fillcolor=lightblue]
+	2744835886888 -> 2744835886608
+	2744835886888 [label="resnet_layer.4.2.bn3.bias
+ (256)" fillcolor=lightblue]
+	2744835886664 -> 2744835886440
+	2744835886328 -> 2744835886048
+	2744835886328 [label="resnet_layer.5.0.conv1.weight
+ (128, 256, 1, 1)" fillcolor=lightblue]
+	2744835886104 -> 2744835885880
+	2744835886104 [label="resnet_layer.5.0.bn1.weight
+ (128)" fillcolor=lightblue]
+	2744835886160 -> 2744835885880
+	2744835886160 [label="resnet_layer.5.0.bn1.bias
+ (128)" fillcolor=lightblue]
+	2744835885768 -> 2744835885488
+	2744835885768 [label="resnet_layer.5.0.conv2.weight
+ (128, 128, 3, 3)" fillcolor=lightblue]
+	2744835885544 -> 2744835885320
+	2744835885544 [label="resnet_layer.5.0.bn2.weight
+ (128)" fillcolor=lightblue]
+	2744835885600 -> 2744835885320
+	2744835885600 [label="resnet_layer.5.0.bn2.bias
+ (128)" fillcolor=lightblue]
+	2744835885208 -> 2744835884928
+	2744835885208 [label="resnet_layer.5.0.conv3.weight
+ (512, 128, 1, 1)" fillcolor=lightblue]
+	2744835884984 -> 2744835884760
+	2744835884984 [label="resnet_layer.5.0.bn3.weight
+ (512)" fillcolor=lightblue]
+	2744835885040 -> 2744835884760
+	2744835885040 [label="resnet_layer.5.0.bn3.bias
+ (512)" fillcolor=lightblue]
+	2744835884816 -> 2744835884592
+	2744835884816 [label=NativeBatchNormBackward]
+	2744835885096 -> 2744835884816
+	2744835885096 [label=ThnnConv2DBackward]
+	2744835886272 -> 2744835885096
+	2744835885376 -> 2744835885096
+	2744835885376 [label="resnet_layer.5.0.downsample.0.weight
+ (512, 256, 1, 1)" fillcolor=lightblue]
+	2744835885264 -> 2744835884816
+	2744835885264 [label="resnet_layer.5.0.downsample.1.weight
+ (512)" fillcolor=lightblue]
+	2744835885656 -> 2744835884816
+	2744835885656 [label="resnet_layer.5.0.downsample.1.bias
+ (512)" fillcolor=lightblue]
+	2744835884480 -> 2744835884256
+	2744835884480 [label="resnet_layer.5.1.conv1.weight
+ (128, 512, 1, 1)" fillcolor=lightblue]
+	2744835884312 -> 2744835884088
+	2744835884312 [label="resnet_layer.5.1.bn1.weight
+ (128)" fillcolor=lightblue]
+	2744835884368 -> 2744835884088
+	2744835884368 [label="resnet_layer.5.1.bn1.bias
+ (128)" fillcolor=lightblue]
+	2744835883976 -> 2744835883696
+	2744835883976 [label="resnet_layer.5.1.conv2.weight
+ (128, 128, 3, 3)" fillcolor=lightblue]
+	2744835883752 -> 2744835883528
+	2744835883752 [label="resnet_layer.5.1.bn2.weight
+ (128)" fillcolor=lightblue]
+	2744835883808 -> 2744835883528
+	2744835883808 [label="resnet_layer.5.1.bn2.bias
+ (128)" fillcolor=lightblue]
+	2744835883416 -> 2744835883136
+	2744835883416 [label="resnet_layer.5.1.conv3.weight
+ (512, 128, 1, 1)" fillcolor=lightblue]
+	2744835883192 -> 2744835878808
+	2744835883192 [label="resnet_layer.5.1.bn3.weight
+ (512)" fillcolor=lightblue]
+	2744835883248 -> 2744835878808
+	2744835883248 [label="resnet_layer.5.1.bn3.bias
+ (512)" fillcolor=lightblue]
+	2744835878864 -> 2744835878640
+	2744835878528 -> 2744835878304
+	2744835878528 [label="resnet_layer.5.2.conv1.weight
+ (128, 512, 1, 1)" fillcolor=lightblue]
+	2744835878360 -> 2744835878136
+	2744835878360 [label="resnet_layer.5.2.bn1.weight
+ (128)" fillcolor=lightblue]
+	2744835878416 -> 2744835878136
+	2744835878416 [label="resnet_layer.5.2.bn1.bias
+ (128)" fillcolor=lightblue]
+	2744835878024 -> 2744835877744
+	2744835878024 [label="resnet_layer.5.2.conv2.weight
+ (128, 128, 3, 3)" fillcolor=lightblue]
+	2744835877800 -> 2744835877576
+	2744835877800 [label="resnet_layer.5.2.bn2.weight
+ (128)" fillcolor=lightblue]
+	2744835877856 -> 2744835877576
+	2744835877856 [label="resnet_layer.5.2.bn2.bias
+ (128)" fillcolor=lightblue]
+	2744835877464 -> 2744835877184
+	2744835877464 [label="resnet_layer.5.2.conv3.weight
+ (512, 128, 1, 1)" fillcolor=lightblue]
+	2744835877240 -> 2744835877016
+	2744835877240 [label="resnet_layer.5.2.bn3.weight
+ (512)" fillcolor=lightblue]
+	2744835877296 -> 2744835877016
+	2744835877296 [label="resnet_layer.5.2.bn3.bias
+ (512)" fillcolor=lightblue]
+	2744835877072 -> 2744835876848
+	2744835876736 -> 2744835876512
+	2744835876736 [label="resnet_layer.5.3.conv1.weight
+ (128, 512, 1, 1)" fillcolor=lightblue]
+	2744835876568 -> 2744835876344
+	2744835876568 [label="resnet_layer.5.3.bn1.weight
+ (128)" fillcolor=lightblue]
+	2744835876624 -> 2744835876344
+	2744835876624 [label="resnet_layer.5.3.bn1.bias
+ (128)" fillcolor=lightblue]
+	2744835876232 -> 2744835875952
+	2744835876232 [label="resnet_layer.5.3.conv2.weight
+ (128, 128, 3, 3)" fillcolor=lightblue]
+	2744835876008 -> 2744835875784
+	2744835876008 [label="resnet_layer.5.3.bn2.weight
+ (128)" fillcolor=lightblue]
+	2744835876064 -> 2744835875784
+	2744835876064 [label="resnet_layer.5.3.bn2.bias
+ (128)" fillcolor=lightblue]
+	2744835875672 -> 2744835875392
+	2744835875672 [label="resnet_layer.5.3.conv3.weight
+ (512, 128, 1, 1)" fillcolor=lightblue]
+	2744835875448 -> 2744835875224
+	2744835875448 [label="resnet_layer.5.3.bn3.weight
+ (512)" fillcolor=lightblue]
+	2744835875504 -> 2744835875224
+	2744835875504 [label="resnet_layer.5.3.bn3.bias
+ (512)" fillcolor=lightblue]
+	2744835875280 -> 2744835875056
+	2744835874944 -> 2744835870504
+	2744835874944 [label="resnet_layer.6.0.conv1.weight
+ (256, 512, 1, 1)" fillcolor=lightblue]
+	2744835870560 -> 2744835870336
+	2744835870560 [label="resnet_layer.6.0.bn1.weight
+ (256)" fillcolor=lightblue]
+	2744835870616 -> 2744835870336
+	2744835870616 [label="resnet_layer.6.0.bn1.bias
+ (256)" fillcolor=lightblue]
+	2744835870224 -> 2744835869944
+	2744835870224 [label="resnet_layer.6.0.conv2.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	2744835870000 -> 2744835869776
+	2744835870000 [label="resnet_layer.6.0.bn2.weight
+ (256)" fillcolor=lightblue]
+	2744835870056 -> 2744835869776
+	2744835870056 [label="resnet_layer.6.0.bn2.bias
+ (256)" fillcolor=lightblue]
+	2744835869664 -> 2744835869384
+	2744835869664 [label="resnet_layer.6.0.conv3.weight
+ (1024, 256, 1, 1)" fillcolor=lightblue]
+	2744835869440 -> 2744835869216
+	2744835869440 [label="resnet_layer.6.0.bn3.weight
+ (1024)" fillcolor=lightblue]
+	2744835869496 -> 2744835869216
+	2744835869496 [label="resnet_layer.6.0.bn3.bias
+ (1024)" fillcolor=lightblue]
+	2744835869272 -> 2744835869048
+	2744835869272 [label=NativeBatchNormBackward]
+	2744835869552 -> 2744835869272
+	2744835869552 [label=ThnnConv2DBackward]
+	2744835874888 -> 2744835869552
+	2744835869832 -> 2744835869552
+	2744835869832 [label="resnet_layer.6.0.downsample.0.weight
+ (1024, 512, 1, 1)" fillcolor=lightblue]
+	2744835869720 -> 2744835869272
+	2744835869720 [label="resnet_layer.6.0.downsample.1.weight
+ (1024)" fillcolor=lightblue]
+	2744835870112 -> 2744835869272
+	2744835870112 [label="resnet_layer.6.0.downsample.1.bias
+ (1024)" fillcolor=lightblue]
+	2744835868936 -> 2744835868712
+	2744835868936 [label="resnet_layer.6.1.conv1.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	2744835868768 -> 2744835868544
+	2744835868768 [label="resnet_layer.6.1.bn1.weight
+ (256)" fillcolor=lightblue]
+	2744835868824 -> 2744835868544
+	2744835868824 [label="resnet_layer.6.1.bn1.bias
+ (256)" fillcolor=lightblue]
+	2744835868432 -> 2744835868152
+	2744835868432 [label="resnet_layer.6.1.conv2.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	2744835868208 -> 2744835867984
+	2744835868208 [label="resnet_layer.6.1.bn2.weight
+ (256)" fillcolor=lightblue]
+	2744835868264 -> 2744835867984
+	2744835868264 [label="resnet_layer.6.1.bn2.bias
+ (256)" fillcolor=lightblue]
+	2744835867872 -> 2744835867592
+	2744835867872 [label="resnet_layer.6.1.conv3.weight
+ (1024, 256, 1, 1)" fillcolor=lightblue]
+	2744835867648 -> 2744835867424
+	2744835867648 [label="resnet_layer.6.1.bn3.weight
+ (1024)" fillcolor=lightblue]
+	2744835867704 -> 2744835867424
+	2744835867704 [label="resnet_layer.6.1.bn3.bias
+ (1024)" fillcolor=lightblue]
+	2744835867480 -> 2744835867256
+	2744835867144 -> 2744835866920
+	2744835867144 [label="resnet_layer.6.2.conv1.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	2744835866976 -> 2744835866752
+	2744835866976 [label="resnet_layer.6.2.bn1.weight
+ (256)" fillcolor=lightblue]
+	2744835867032 -> 2744835866752
+	2744835867032 [label="resnet_layer.6.2.bn1.bias
+ (256)" fillcolor=lightblue]
+	2744835862480 -> 2744835862200
+	2744835862480 [label="resnet_layer.6.2.conv2.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	2744835862256 -> 2744835862032
+	2744835862256 [label="resnet_layer.6.2.bn2.weight
+ (256)" fillcolor=lightblue]
+	2744835862312 -> 2744835862032
+	2744835862312 [label="resnet_layer.6.2.bn2.bias
+ (256)" fillcolor=lightblue]
+	2744835861920 -> 2744835861640
+	2744835861920 [label="resnet_layer.6.2.conv3.weight
+ (1024, 256, 1, 1)" fillcolor=lightblue]
+	2744835861696 -> 2744835861472
+	2744835861696 [label="resnet_layer.6.2.bn3.weight
+ (1024)" fillcolor=lightblue]
+	2744835861752 -> 2744835861472
+	2744835861752 [label="resnet_layer.6.2.bn3.bias
+ (1024)" fillcolor=lightblue]
+	2744835861528 -> 2744835861304
+	2744835861192 -> 2744835860968
+	2744835861192 [label="resnet_layer.6.3.conv1.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	2744835861024 -> 2744835860800
+	2744835861024 [label="resnet_layer.6.3.bn1.weight
+ (256)" fillcolor=lightblue]
+	2744835861080 -> 2744835860800
+	2744835861080 [label="resnet_layer.6.3.bn1.bias
+ (256)" fillcolor=lightblue]
+	2744835860688 -> 2744835860408
+	2744835860688 [label="resnet_layer.6.3.conv2.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	2744835860464 -> 2744835860240
+	2744835860464 [label="resnet_layer.6.3.bn2.weight
+ (256)" fillcolor=lightblue]
+	2744835860520 -> 2744835860240
+	2744835860520 [label="resnet_layer.6.3.bn2.bias
+ (256)" fillcolor=lightblue]
+	2744835860128 -> 2744835859848
+	2744835860128 [label="resnet_layer.6.3.conv3.weight
+ (1024, 256, 1, 1)" fillcolor=lightblue]
+	2744835859904 -> 2744835859680
+	2744835859904 [label="resnet_layer.6.3.bn3.weight
+ (1024)" fillcolor=lightblue]
+	2744835859960 -> 2744835859680
+	2744835859960 [label="resnet_layer.6.3.bn3.bias
+ (1024)" fillcolor=lightblue]
+	2744835859736 -> 2744835859512
+	2744835859400 -> 2744835859176
+	2744835859400 [label="resnet_layer.6.4.conv1.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	2744835859232 -> 2744835859008
+	2744835859232 [label="resnet_layer.6.4.bn1.weight
+ (256)" fillcolor=lightblue]
+	2744835859288 -> 2744835859008
+	2744835859288 [label="resnet_layer.6.4.bn1.bias
+ (256)" fillcolor=lightblue]
+	2744835858896 -> 2744835858616
+	2744835858896 [label="resnet_layer.6.4.conv2.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	2744835858672 -> 2744835858384
+	2744835858672 [label="resnet_layer.6.4.bn2.weight
+ (256)" fillcolor=lightblue]
+	2744835858728 -> 2744835858384
+	2744835858728 [label="resnet_layer.6.4.bn2.bias
+ (256)" fillcolor=lightblue]
+	2744835858272 -> 2744835857992
+	2744835858272 [label="resnet_layer.6.4.conv3.weight
+ (1024, 256, 1, 1)" fillcolor=lightblue]
+	2744835858048 -> 2744835857824
+	2744835858048 [label="resnet_layer.6.4.bn3.weight
+ (1024)" fillcolor=lightblue]
+	2744835858104 -> 2744835857824
+	2744835858104 [label="resnet_layer.6.4.bn3.bias
+ (1024)" fillcolor=lightblue]
+	2744835857880 -> 2744835857656
+	2744835857544 -> 2744835857320
+	2744835857544 [label="resnet_layer.6.5.conv1.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	2744835857376 -> 2744835857152
+	2744835857376 [label="resnet_layer.6.5.bn1.weight
+ (256)" fillcolor=lightblue]
+	2744835857432 -> 2744835857152
+	2744835857432 [label="resnet_layer.6.5.bn1.bias
+ (256)" fillcolor=lightblue]
+	2744835857040 -> 2744835856760
+	2744835857040 [label="resnet_layer.6.5.conv2.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	2744835856816 -> 2744835856592
+	2744835856816 [label="resnet_layer.6.5.bn2.weight
+ (256)" fillcolor=lightblue]
+	2744835856872 -> 2744835856592
+	2744835856872 [label="resnet_layer.6.5.bn2.bias
+ (256)" fillcolor=lightblue]
+	2744835856480 -> 2744835856200
+	2744835856480 [label="resnet_layer.6.5.conv3.weight
+ (1024, 256, 1, 1)" fillcolor=lightblue]
+	2744835856256 -> 2744835856032
+	2744835856256 [label="resnet_layer.6.5.bn3.weight
+ (1024)" fillcolor=lightblue]
+	2744835856312 -> 2744835856032
+	2744835856312 [label="resnet_layer.6.5.bn3.bias
+ (1024)" fillcolor=lightblue]
+	2744835856088 -> 2744835855864
+	2744835855696 -> 2744835855416
+	2744835855696 [label="stage_11_a_atrous_conv_block.0.conv2d_bn_module1.0.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	2744835855752 -> 2744835855416
+	2744835855752 [label="stage_11_a_atrous_conv_block.0.conv2d_bn_module1.0.bias
+ (256)" fillcolor=lightblue]
+	2744835855472 -> 2744835855248
+	2744835855472 [label="stage_11_a_atrous_conv_block.0.conv2d_bn_module1.1.weight
+ (256)" fillcolor=lightblue]
+	2744835855528 -> 2744835855248
+	2744835855528 [label="stage_11_a_atrous_conv_block.0.conv2d_bn_module1.1.bias
+ (256)" fillcolor=lightblue]
+	2744835855080 -> 2744835854800
+	2744835855080 [label="stage_11_a_atrous_conv_block.0.atrous_conv2d_bn_module2.0.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	2744835855136 -> 2744835854800
+	2744835855136 [label="stage_11_a_atrous_conv_block.0.atrous_conv2d_bn_module2.0.bias
+ (256)" fillcolor=lightblue]
+	2744835854856 -> 2744835854632
+	2744835854856 [label="stage_11_a_atrous_conv_block.0.atrous_conv2d_bn_module2.1.weight
+ (256)" fillcolor=lightblue]
+	2744835854912 -> 2744835854632
+	2744835854912 [label="stage_11_a_atrous_conv_block.0.atrous_conv2d_bn_module2.1.bias
+ (256)" fillcolor=lightblue]
+	2744835854464 -> 2744835845928
+	2744835854464 [label="stage_11_a_atrous_conv_block.0.conv2d_bn_module3.0.weight
+ (1024, 256, 1, 1)" fillcolor=lightblue]
+	2744835854520 -> 2744835845928
+	2744835854520 [label="stage_11_a_atrous_conv_block.0.conv2d_bn_module3.0.bias
+ (1024)" fillcolor=lightblue]
+	2744835845984 -> 2744835845760
+	2744835845984 [label="stage_11_a_atrous_conv_block.0.conv2d_bn_module3.1.weight
+ (1024)" fillcolor=lightblue]
+	2744835846040 -> 2744835845760
+	2744835846040 [label="stage_11_a_atrous_conv_block.0.conv2d_bn_module3.1.bias
+ (1024)" fillcolor=lightblue]
+	2744835845816 -> 2744835845592
+	2744835845816 [label=NativeBatchNormBackward]
+	2744835846096 -> 2744835845816
+	2744835846096 [label=ThnnConv2DBackward]
+	2744835855640 -> 2744835846096
+	2744835854688 -> 2744835846096
+	2744835854688 [label="stage_11_a_atrous_conv_block.0.conv2d_bn_module4.0.weight
+ (1024, 1024, 1, 1)" fillcolor=lightblue]
+	2744835855584 -> 2744835846096
+	2744835855584 [label="stage_11_a_atrous_conv_block.0.conv2d_bn_module4.0.bias
+ (1024)" fillcolor=lightblue]
+	2744835854576 -> 2744835845816
+	2744835854576 [label="stage_11_a_atrous_conv_block.0.conv2d_bn_module4.1.weight
+ (1024)" fillcolor=lightblue]
+	2744835854968 -> 2744835845816
+	2744835854968 [label="stage_11_a_atrous_conv_block.0.conv2d_bn_module4.1.bias
+ (1024)" fillcolor=lightblue]
+	2744835845424 -> 2744835845200
+	2744835845424 [label="stage_11_b_atrous_identity_block.0.conv2d_bn_module1.0.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	2744835845480 -> 2744835845200
+	2744835845480 [label="stage_11_b_atrous_identity_block.0.conv2d_bn_module1.0.bias
+ (256)" fillcolor=lightblue]
+	2744835845256 -> 2744835845032
+	2744835845256 [label="stage_11_b_atrous_identity_block.0.conv2d_bn_module1.1.weight
+ (256)" fillcolor=lightblue]
+	2744835845312 -> 2744835845032
+	2744835845312 [label="stage_11_b_atrous_identity_block.0.conv2d_bn_module1.1.bias
+ (256)" fillcolor=lightblue]
+	2744835844864 -> 2744835844584
+	2744835844864 [label="stage_11_b_atrous_identity_block.0.atrous_conv2d_bn_module2.0.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	2744835844920 -> 2744835844584
+	2744835844920 [label="stage_11_b_atrous_identity_block.0.atrous_conv2d_bn_module2.0.bias
+ (256)" fillcolor=lightblue]
+	2744835844640 -> 2744835844416
+	2744835844640 [label="stage_11_b_atrous_identity_block.0.atrous_conv2d_bn_module2.1.weight
+ (256)" fillcolor=lightblue]
+	2744835844696 -> 2744835844416
+	2744835844696 [label="stage_11_b_atrous_identity_block.0.atrous_conv2d_bn_module2.1.bias
+ (256)" fillcolor=lightblue]
+	2744835844248 -> 2744835843968
+	2744835844248 [label="stage_11_b_atrous_identity_block.0.conv2d_bn_module3.0.weight
+ (1024, 256, 1, 1)" fillcolor=lightblue]
+	2744835844304 -> 2744835843968
+	2744835844304 [label="stage_11_b_atrous_identity_block.0.conv2d_bn_module3.0.bias
+ (1024)" fillcolor=lightblue]
+	2744835844024 -> 2744835843800
+	2744835844024 [label="stage_11_b_atrous_identity_block.0.conv2d_bn_module3.1.weight
+ (1024)" fillcolor=lightblue]
+	2744835844080 -> 2744835843800
+	2744835844080 [label="stage_11_b_atrous_identity_block.0.conv2d_bn_module3.1.bias
+ (1024)" fillcolor=lightblue]
+	2744835843856 -> 2744835843632
+	2744835843464 -> 2744835843240
+	2744835843464 [label="stage_11_c_atrous_identity_block.0.conv2d_bn_module1.0.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	2744835843520 -> 2744835843240
+	2744835843520 [label="stage_11_c_atrous_identity_block.0.conv2d_bn_module1.0.bias
+ (256)" fillcolor=lightblue]
+	2744835843296 -> 2744835843072
+	2744835843296 [label="stage_11_c_atrous_identity_block.0.conv2d_bn_module1.1.weight
+ (256)" fillcolor=lightblue]
+	2744835843352 -> 2744835843072
+	2744835843352 [label="stage_11_c_atrous_identity_block.0.conv2d_bn_module1.1.bias
+ (256)" fillcolor=lightblue]
+	2744835842904 -> 2744835842624
+	2744835842904 [label="stage_11_c_atrous_identity_block.0.atrous_conv2d_bn_module2.0.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	2744835842960 -> 2744835842624
+	2744835842960 [label="stage_11_c_atrous_identity_block.0.atrous_conv2d_bn_module2.0.bias
+ (256)" fillcolor=lightblue]
+	2744835842680 -> 2744835842456
+	2744835842680 [label="stage_11_c_atrous_identity_block.0.atrous_conv2d_bn_module2.1.weight
+ (256)" fillcolor=lightblue]
+	2744835842736 -> 2744835842456
+	2744835842736 [label="stage_11_c_atrous_identity_block.0.atrous_conv2d_bn_module2.1.bias
+ (256)" fillcolor=lightblue]
+	2744835842288 -> 2744835841944
+	2744835842288 [label="stage_11_c_atrous_identity_block.0.conv2d_bn_module3.0.weight
+ (1024, 256, 1, 1)" fillcolor=lightblue]
+	2744835842344 -> 2744835841944
+	2744835842344 [label="stage_11_c_atrous_identity_block.0.conv2d_bn_module3.0.bias
+ (1024)" fillcolor=lightblue]
+	2744835842000 -> 2744835841776
+	2744835842000 [label="stage_11_c_atrous_identity_block.0.conv2d_bn_module3.1.weight
+ (1024)" fillcolor=lightblue]
+	2744835842120 -> 2744835841776
+	2744835842120 [label="stage_11_c_atrous_identity_block.0.conv2d_bn_module3.1.bias
+ (1024)" fillcolor=lightblue]
+	2744835841832 -> 2744835841608
+	2744835841440 -> 2744835841160
+	2744835841440 [label="stage_12_a_conv_block.0.conv2d_bn_module1.0.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	2744835841496 -> 2744835841160
+	2744835841496 [label="stage_12_a_conv_block.0.conv2d_bn_module1.0.bias
+ (256)" fillcolor=lightblue]
+	2744835841216 -> 2744835840992
+	2744835841216 [label="stage_12_a_conv_block.0.conv2d_bn_module1.1.weight
+ (256)" fillcolor=lightblue]
+	2744835841272 -> 2744835840992
+	2744835841272 [label="stage_12_a_conv_block.0.conv2d_bn_module1.1.bias
+ (256)" fillcolor=lightblue]
+	2744835840824 -> 2744835840544
+	2744835840824 [label="stage_12_a_conv_block.0.conv2d_bn_module2.0.weight
+ (256, 256, 1, 1)" fillcolor=lightblue]
+	2744835840880 -> 2744835840544
+	2744835840880 [label="stage_12_a_conv_block.0.conv2d_bn_module2.0.bias
+ (256)" fillcolor=lightblue]
+	2744835840600 -> 2744835840376
+	2744835840600 [label="stage_12_a_conv_block.0.conv2d_bn_module2.1.weight
+ (256)" fillcolor=lightblue]
+	2744835840656 -> 2744835840376
+	2744835840656 [label="stage_12_a_conv_block.0.conv2d_bn_module2.1.bias
+ (256)" fillcolor=lightblue]
+	2744835840208 -> 2744835839928
+	2744835840208 [label="stage_12_a_conv_block.0.conv2d_module3.0.weight
+ (64, 256, 1, 1)" fillcolor=lightblue]
+	2744835840264 -> 2744835839928
+	2744835840264 [label="stage_12_a_conv_block.0.conv2d_module3.0.bias
+ (64)" fillcolor=lightblue]
+	2744835839984 -> 2744835839760
+	2744835839984 [label="stage_12_a_conv_block.0.conv2d_module3.1.weight
+ (64)" fillcolor=lightblue]
+	2744835840040 -> 2744835839760
+	2744835840040 [label="stage_12_a_conv_block.0.conv2d_module3.1.bias
+ (64)" fillcolor=lightblue]
+	2744835839816 -> 2744835839592
+	2744835839816 [label=ThresholdBackward0]
+	2744835840096 -> 2744835839816
+	2744835840096 [label=ThnnConv2DBackward]
+	2744835841384 -> 2744835840096
+	2744835840712 -> 2744835840096
+	2744835840712 [label="stage_12_a_conv_block.0.conv2d_module4.0.weight
+ (64, 1024, 1, 1)" fillcolor=lightblue]
+	2744835840936 -> 2744835840096
+	2744835840936 [label="stage_12_a_conv_block.0.conv2d_module4.0.bias
+ (64)" fillcolor=lightblue]
+	2744835839368 -> 2744835839088
+	2744835839368 [label=ThresholdBackward0]
+	2744835839648 -> 2744835839368
+	2744835839648 [label=NativeBatchNormBackward]
+	2744835840320 -> 2744835839648
+	2744835840320 [label=ThnnConv2DBackward]
+	2744835841328 -> 2744835840320
+	2744835841328 [label=ThresholdBackward0]
+	2744835842400 -> 2744835841328
+	2744835842400 [label=AddBackward0]
+	2744835843016 -> 2744835842400
+	2744835843016 [label=NativeBatchNormBackward]
+	2744835843576 -> 2744835843016
+	2744835843576 [label=ThnnConv2DBackward]
+	2744835843688 -> 2744835843576
+	2744835843688 [label=ThresholdBackward0]
+	2744835844472 -> 2744835843688
+	2744835844472 [label=NativeBatchNormBackward]
+	2744835845536 -> 2744835844472
+	2744835845536 [label=ThnnConvDilated2DBackward]
+	2744835855192 -> 2744835845536
+	2744835855192 [label=ThresholdBackward0]
+	2744835855304 -> 2744835855192
+	2744835855304 [label=NativeBatchNormBackward]
+	2744835856536 -> 2744835855304
+	2744835856536 [label=ThnnConv2DBackward]
+	2744835842512 -> 2744835856536
+	2744835842512 [label=ThresholdBackward0]
+	2744835857936 -> 2744835842512
+	2744835857936 [label=AddBackward0]
+	2744835857712 -> 2744835857936
+	2744835857712 [label=NativeBatchNormBackward]
+	2744835858952 -> 2744835857712
+	2744835858952 [label=ThnnConv2DBackward]
+	2744835859064 -> 2744835858952
+	2744835859064 [label=ThresholdBackward0]
+	2744835860184 -> 2744835859064
+	2744835860184 [label=NativeBatchNormBackward]
+	2744835860744 -> 2744835860184
+	2744835860744 [label=ThnnConvDilated2DBackward]
+	2744835860856 -> 2744835860744
+	2744835860856 [label=ThresholdBackward0]
+	2744835861976 -> 2744835860856
+	2744835861976 [label=NativeBatchNormBackward]
+	2744835862088 -> 2744835861976
+	2744835862088 [label=ThnnConv2DBackward]
+	2744835858328 -> 2744835862088
+	2744835858328 [label=ThresholdBackward0]
+	2744835867312 -> 2744835858328
+	2744835867312 [label=AddBackward0]
+	2744835868320 -> 2744835867312
+	2744835868320 [label=NativeBatchNormBackward]
+	2744835868880 -> 2744835868320
+	2744835868880 [label=ThnnConv2DBackward]
+	2744835870280 -> 2744835868880
+	2744835870280 [label=ThresholdBackward0]
+	2744835875000 -> 2744835870280
+	2744835875000 [label=NativeBatchNormBackward]
+	2744835875560 -> 2744835875000
+	2744835875560 [label=ThnnConvDilated2DBackward]
+	2744835876288 -> 2744835875560
+	2744835876288 [label=ThresholdBackward0]
+	2744835876400 -> 2744835876288
+	2744835876400 [label=NativeBatchNormBackward]
+	2744835877352 -> 2744835876400
+	2744835877352 [label=ThnnConv2DBackward]
+	2744835841384 -> 2744835877352
+	2744835878080 -> 2744835877352
+	2744835878080 [label="stage_13_a_atrous_conv_block.0.conv2d_bn_module1.0.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	2744835877632 -> 2744835877352
+	2744835877632 [label="stage_13_a_atrous_conv_block.0.conv2d_bn_module1.0.bias
+ (256)" fillcolor=lightblue]
+	2744835876904 -> 2744835876400
+	2744835876904 [label="stage_13_a_atrous_conv_block.0.conv2d_bn_module1.1.weight
+ (256)" fillcolor=lightblue]
+	2744835877520 -> 2744835876400
+	2744835877520 [label="stage_13_a_atrous_conv_block.0.conv2d_bn_module1.1.bias
+ (256)" fillcolor=lightblue]
+	2744835875840 -> 2744835875560
+	2744835875840 [label="stage_13_a_atrous_conv_block.0.atrous_conv2d_bn_module2.0.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	2744835876680 -> 2744835875560
+	2744835876680 [label="stage_13_a_atrous_conv_block.0.atrous_conv2d_bn_module2.0.bias
+ (256)" fillcolor=lightblue]
+	2744835875112 -> 2744835875000
+	2744835875112 [label="stage_13_a_atrous_conv_block.0.atrous_conv2d_bn_module2.1.weight
+ (256)" fillcolor=lightblue]
+	2744835875728 -> 2744835875000
+	2744835875728 [label="stage_13_a_atrous_conv_block.0.atrous_conv2d_bn_module2.1.bias
+ (256)" fillcolor=lightblue]
+	2744835869104 -> 2744835868880
+	2744835869104 [label="stage_13_a_atrous_conv_block.0.conv2d_bn_module3.0.weight
+ (256, 256, 1, 1)" fillcolor=lightblue]
+	2744835870672 -> 2744835868880
+	2744835870672 [label="stage_13_a_atrous_conv_block.0.conv2d_bn_module3.0.bias
+ (256)" fillcolor=lightblue]
+	2744835868992 -> 2744835868320
+	2744835868992 [label="stage_13_a_atrous_conv_block.0.conv2d_bn_module3.1.weight
+ (256)" fillcolor=lightblue]
+	2744835868600 -> 2744835868320
+	2744835868600 [label="stage_13_a_atrous_conv_block.0.conv2d_bn_module3.1.bias
+ (256)" fillcolor=lightblue]
+	2744835868488 -> 2744835867312
+	2744835868488 [label=NativeBatchNormBackward]
+	2744835869328 -> 2744835868488
+	2744835869328 [label=ThnnConv2DBackward]
+	2744835841384 -> 2744835869328
+	2744835875336 -> 2744835869328
+	2744835875336 [label="stage_13_a_atrous_conv_block.0.conv2d_bn_module4.0.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	2744835877912 -> 2744835869328
+	2744835877912 [label="stage_13_a_atrous_conv_block.0.conv2d_bn_module4.0.bias
+ (256)" fillcolor=lightblue]
+	2744835870392 -> 2744835868488
+	2744835870392 [label="stage_13_a_atrous_conv_block.0.conv2d_bn_module4.1.weight
+ (256)" fillcolor=lightblue]
+	2744835876120 -> 2744835868488
+	2744835876120 [label="stage_13_a_atrous_conv_block.0.conv2d_bn_module4.1.bias
+ (256)" fillcolor=lightblue]
+	2744835866808 -> 2744835862088
+	2744835866808 [label="stage_13_b_atrous_identity_block.0.conv2d_bn_module1.0.weight
+ (256, 256, 1, 1)" fillcolor=lightblue]
+	2744835867536 -> 2744835862088
+	2744835867536 [label="stage_13_b_atrous_identity_block.0.conv2d_bn_module1.0.bias
+ (256)" fillcolor=lightblue]
+	2744835866696 -> 2744835861976
+	2744835866696 [label="stage_13_b_atrous_identity_block.0.conv2d_bn_module1.1.weight
+ (256)" fillcolor=lightblue]
+	2744835867088 -> 2744835861976
+	2744835867088 [label="stage_13_b_atrous_identity_block.0.conv2d_bn_module1.1.bias
+ (256)" fillcolor=lightblue]
+	2744835861584 -> 2744835860744
+	2744835861584 [label="stage_13_b_atrous_identity_block.0.atrous_conv2d_bn_module2.0.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	2744835861808 -> 2744835860744
+	2744835861808 [label="stage_13_b_atrous_identity_block.0.atrous_conv2d_bn_module2.0.bias
+ (256)" fillcolor=lightblue]
+	2744835860296 -> 2744835860184
+	2744835860296 [label="stage_13_b_atrous_identity_block.0.atrous_conv2d_bn_module2.1.weight
+ (256)" fillcolor=lightblue]
+	2744835861136 -> 2744835860184
+	2744835861136 [label="stage_13_b_atrous_identity_block.0.atrous_conv2d_bn_module2.1.bias
+ (256)" fillcolor=lightblue]
+	2744835859792 -> 2744835858952
+	2744835859792 [label="stage_13_b_atrous_identity_block.0.conv2d_bn_module3.0.weight
+ (256, 256, 1, 1)" fillcolor=lightblue]
+	2744835860016 -> 2744835858952
+	2744835860016 [label="stage_13_b_atrous_identity_block.0.conv2d_bn_module3.0.bias
+ (256)" fillcolor=lightblue]
+	2744835858504 -> 2744835857712
+	2744835858504 [label="stage_13_b_atrous_identity_block.0.conv2d_bn_module3.1.weight
+ (256)" fillcolor=lightblue]
+	2744835859344 -> 2744835857712
+	2744835859344 [label="stage_13_b_atrous_identity_block.0.conv2d_bn_module3.1.bias
+ (256)" fillcolor=lightblue]
+	2744835858328 -> 2744835857936
+	2744835857488 -> 2744835856536
+	2744835857488 [label="stage_13_c_atrous_identity_block.0.conv2d_bn_module1.0.weight
+ (256, 256, 1, 1)" fillcolor=lightblue]
+	2744835857600 -> 2744835856536
+	2744835857600 [label="stage_13_c_atrous_identity_block.0.conv2d_bn_module1.0.bias
+ (256)" fillcolor=lightblue]
+	2744835856928 -> 2744835855304
+	2744835856928 [label="stage_13_c_atrous_identity_block.0.conv2d_bn_module1.1.weight
+ (256)" fillcolor=lightblue]
+	2744835857096 -> 2744835855304
+	2744835857096 [label="stage_13_c_atrous_identity_block.0.conv2d_bn_module1.1.bias
+ (256)" fillcolor=lightblue]
+	2744835855808 -> 2744835845536
+	2744835855808 [label="stage_13_c_atrous_identity_block.0.atrous_conv2d_bn_module2.0.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	2744835856144 -> 2744835845536
+	2744835856144 [label="stage_13_c_atrous_identity_block.0.atrous_conv2d_bn_module2.0.bias
+ (256)" fillcolor=lightblue]
+	2744835845088 -> 2744835844472
+	2744835845088 [label="stage_13_c_atrous_identity_block.0.atrous_conv2d_bn_module2.1.weight
+ (256)" fillcolor=lightblue]
+	2744835845872 -> 2744835844472
+	2744835845872 [label="stage_13_c_atrous_identity_block.0.atrous_conv2d_bn_module2.1.bias
+ (256)" fillcolor=lightblue]
+	2744835844360 -> 2744835843576
+	2744835844360 [label="stage_13_c_atrous_identity_block.0.conv2d_bn_module3.0.weight
+ (256, 256, 1, 1)" fillcolor=lightblue]
+	2744835844752 -> 2744835843576
+	2744835844752 [label="stage_13_c_atrous_identity_block.0.conv2d_bn_module3.0.bias
+ (256)" fillcolor=lightblue]
+	2744835843128 -> 2744835843016
+	2744835843128 [label="stage_13_c_atrous_identity_block.0.conv2d_bn_module3.1.weight
+ (256)" fillcolor=lightblue]
+	2744835843912 -> 2744835843016
+	2744835843912 [label="stage_13_c_atrous_identity_block.0.conv2d_bn_module3.1.bias
+ (256)" fillcolor=lightblue]
+	2744835842512 -> 2744835842400
+	2744835841888 -> 2744835840320
+	2744835841888 [label="stage_13_d_conv_bn_block.0.conv2d_bn_module.0.weight
+ (64, 256, 1, 1)" fillcolor=lightblue]
+	2744835841664 -> 2744835840320
+	2744835841664 [label="stage_13_d_conv_bn_block.0.conv2d_bn_module.0.bias
+ (64)" fillcolor=lightblue]
+	2744835840432 -> 2744835839648
+	2744835840432 [label="stage_13_d_conv_bn_block.0.conv2d_bn_module.1.weight
+ (64)" fillcolor=lightblue]
+	2744835841552 -> 2744835839648
+	2744835841552 [label="stage_13_d_conv_bn_block.0.conv2d_bn_module.1.bias
+ (64)" fillcolor=lightblue]
+	2744835839424 -> 2744835839088
+	2744835839424 [label=ThresholdBackward0]
+	2744835839872 -> 2744835839424
+	2744835839872 [label=NativeBatchNormBackward]
+	2744835842176 -> 2744835839872
+	2744835842176 [label=ThnnConv2DBackward]
+	2744835844976 -> 2744835842176
+	2744835844976 [label=ThresholdBackward0]
+	2744835856648 -> 2744835844976
+	2744835856648 [label=AddBackward0]
+	2744835855920 -> 2744835856648
+	2744835855920 [label=NativeBatchNormBackward]
+	2744835859456 -> 2744835855920
+	2744835859456 [label=ThnnConv2DBackward]
+	2744835860576 -> 2744835859456
+	2744835860576 [label=ThresholdBackward0]
+	2744835868040 -> 2744835860576
+	2744835868040 [label=NativeBatchNormBackward]
+	2744835876792 -> 2744835868040
+	2744835876792 [label=ThnnConvDilated2DBackward]
+	2744835877128 -> 2744835876792
+	2744835877128 [label=ThresholdBackward0]
+	2744835883472 -> 2744835877128
+	2744835883472 [label=NativeBatchNormBackward]
+	2744835884032 -> 2744835883472
+	2744835884032 [label=ThnnConv2DBackward]
+	2744835858160 -> 2744835884032
+	2744835858160 [label=ThresholdBackward0]
+	2744835884648 -> 2744835858160
+	2744835884648 [label=AddBackward0]
+	2744835885936 -> 2744835884648
+	2744835885936 [label=NativeBatchNormBackward]
+	2744835886944 -> 2744835885936
+	2744835886944 [label=ThnnConv2DBackward]
+	2744835891832 -> 2744835886944
+	2744835891832 [label=ThresholdBackward0]
+	2744835891944 -> 2744835891832
+	2744835891944 [label=NativeBatchNormBackward]
+	2744835892896 -> 2744835891944
+	2744835892896 [label=ThnnConvDilated2DBackward]
+	2744835893624 -> 2744835892896
+	2744835893624 [label=ThresholdBackward0]
+	2744835893736 -> 2744835893624
+	2744835893736 [label=NativeBatchNormBackward]
+	2744835894968 -> 2744835893736
+	2744835894968 [label=ThnnConv2DBackward]
+	2744835886720 -> 2744835894968
+	2744835886720 [label=ThresholdBackward0]
+	2744835904344 -> 2744835886720
+	2744835904344 [label=AddBackward0]
+	2744835905016 -> 2744835904344
+	2744835905016 [label=NativeBatchNormBackward]
+	2744835905128 -> 2744835905016
+	2744835905128 [label=ThnnConv2DBackward]
+	2744835905352 -> 2744835905128
+	2744835905352 [label=ThresholdBackward0]
+	2744835905576 -> 2744835905352
+	2744835905576 [label=NativeBatchNormBackward]
+	2744835905688 -> 2744835905576
+	2744835905688 [label=ThnnConvDilated2DBackward]
+	2744835905912 -> 2744835905688
+	2744835905912 [label=ThresholdBackward0]
+	2744835906136 -> 2744835905912
+	2744835906136 [label=NativeBatchNormBackward]
+	2744835906248 -> 2744835906136
+	2744835906248 [label=ThnnConv2DBackward]
+	2744835841384 -> 2744835906248
+	2744835906472 -> 2744835906248
+	2744835906472 [label="stage_14_a_atrous_conv_block.0.conv2d_bn_module1.0.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	2744835906528 -> 2744835906248
+	2744835906528 [label="stage_14_a_atrous_conv_block.0.conv2d_bn_module1.0.bias
+ (256)" fillcolor=lightblue]
+	2744835906304 -> 2744835906136
+	2744835906304 [label="stage_14_a_atrous_conv_block.0.conv2d_bn_module1.1.weight
+ (256)" fillcolor=lightblue]
+	2744835906360 -> 2744835906136
+	2744835906360 [label="stage_14_a_atrous_conv_block.0.conv2d_bn_module1.1.bias
+ (256)" fillcolor=lightblue]
+	2744835905968 -> 2744835905688
+	2744835905968 [label="stage_14_a_atrous_conv_block.0.atrous_conv2d_bn_module2.0.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	2744835906024 -> 2744835905688
+	2744835906024 [label="stage_14_a_atrous_conv_block.0.atrous_conv2d_bn_module2.0.bias
+ (256)" fillcolor=lightblue]
+	2744835905744 -> 2744835905576
+	2744835905744 [label="stage_14_a_atrous_conv_block.0.atrous_conv2d_bn_module2.1.weight
+ (256)" fillcolor=lightblue]
+	2744835905800 -> 2744835905576
+	2744835905800 [label="stage_14_a_atrous_conv_block.0.atrous_conv2d_bn_module2.1.bias
+ (256)" fillcolor=lightblue]
+	2744835905408 -> 2744835905128
+	2744835905408 [label="stage_14_a_atrous_conv_block.0.conv2d_bn_module3.0.weight
+ (256, 256, 1, 1)" fillcolor=lightblue]
+	2744835905464 -> 2744835905128
+	2744835905464 [label="stage_14_a_atrous_conv_block.0.conv2d_bn_module3.0.bias
+ (256)" fillcolor=lightblue]
+	2744835905184 -> 2744835905016
+	2744835905184 [label="stage_14_a_atrous_conv_block.0.conv2d_bn_module3.1.weight
+ (256)" fillcolor=lightblue]
+	2744835905240 -> 2744835905016
+	2744835905240 [label="stage_14_a_atrous_conv_block.0.conv2d_bn_module3.1.bias
+ (256)" fillcolor=lightblue]
+	2744835904960 -> 2744835904344
+	2744835904960 [label=NativeBatchNormBackward]
+	2744835905296 -> 2744835904960
+	2744835905296 [label=ThnnConv2DBackward]
+	2744835841384 -> 2744835905296
+	2744835905632 -> 2744835905296
+	2744835905632 [label="stage_14_a_atrous_conv_block.0.conv2d_bn_module4.0.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	2744835906416 -> 2744835905296
+	2744835906416 [label="stage_14_a_atrous_conv_block.0.conv2d_bn_module4.0.bias
+ (256)" fillcolor=lightblue]
+	2744835905520 -> 2744835904960
+	2744835905520 [label="stage_14_a_atrous_conv_block.0.conv2d_bn_module4.1.weight
+ (256)" fillcolor=lightblue]
+	2744835905856 -> 2744835904960
+	2744835905856 [label="stage_14_a_atrous_conv_block.0.conv2d_bn_module4.1.bias
+ (256)" fillcolor=lightblue]
+	2744835904512 -> 2744835894968
+	2744835904512 [label="stage_14_b_atrous_identity_block.0.conv2d_bn_module1.0.weight
+ (256, 256, 1, 1)" fillcolor=lightblue]
+	2744835904232 -> 2744835894968
+	2744835904232 [label="stage_14_b_atrous_identity_block.0.conv2d_bn_module1.0.bias
+ (256)" fillcolor=lightblue]
+	2744835894240 -> 2744835893736
+	2744835894240 [label="stage_14_b_atrous_identity_block.0.conv2d_bn_module1.1.weight
+ (256)" fillcolor=lightblue]
+	2744835904064 -> 2744835893736
+	2744835904064 [label="stage_14_b_atrous_identity_block.0.conv2d_bn_module1.1.bias
+ (256)" fillcolor=lightblue]
+	2744835893176 -> 2744835892896
+	2744835893176 [label="stage_14_b_atrous_identity_block.0.atrous_conv2d_bn_module2.0.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	2744835894016 -> 2744835892896
+	2744835894016 [label="stage_14_b_atrous_identity_block.0.atrous_conv2d_bn_module2.0.bias
+ (256)" fillcolor=lightblue]
+	2744835892448 -> 2744835891944
+	2744835892448 [label="stage_14_b_atrous_identity_block.0.atrous_conv2d_bn_module2.1.weight
+ (256)" fillcolor=lightblue]
+	2744835893064 -> 2744835891944
+	2744835893064 [label="stage_14_b_atrous_identity_block.0.atrous_conv2d_bn_module2.1.bias
+ (256)" fillcolor=lightblue]
+	2744835891384 -> 2744835886944
+	2744835891384 [label="stage_14_b_atrous_identity_block.0.conv2d_bn_module3.0.weight
+ (256, 256, 1, 1)" fillcolor=lightblue]
+	2744835892224 -> 2744835886944
+	2744835892224 [label="stage_14_b_atrous_identity_block.0.conv2d_bn_module3.0.bias
+ (256)" fillcolor=lightblue]
+	2744835886496 -> 2744835885936
+	2744835886496 [label="stage_14_b_atrous_identity_block.0.conv2d_bn_module3.1.weight
+ (256)" fillcolor=lightblue]
+	2744835891272 -> 2744835885936
+	2744835891272 [label="stage_14_b_atrous_identity_block.0.conv2d_bn_module3.1.bias
+ (256)" fillcolor=lightblue]
+	2744835886720 -> 2744835884648
+	2744835884144 -> 2744835884032
+	2744835884144 [label="stage_14_c_atrous_identity_block.0.conv2d_bn_module1.0.weight
+ (256, 256, 1, 1)" fillcolor=lightblue]
+	2744835884872 -> 2744835884032
+	2744835884872 [label="stage_14_c_atrous_identity_block.0.conv2d_bn_module1.0.bias
+ (256)" fillcolor=lightblue]
+	2744835883584 -> 2744835883472
+	2744835883584 [label="stage_14_c_atrous_identity_block.0.conv2d_bn_module1.1.weight
+ (256)" fillcolor=lightblue]
+	2744835884424 -> 2744835883472
+	2744835884424 [label="stage_14_c_atrous_identity_block.0.conv2d_bn_module1.1.bias
+ (256)" fillcolor=lightblue]
+	2744835878584 -> 2744835876792
+	2744835878584 [label="stage_14_c_atrous_identity_block.0.atrous_conv2d_bn_module2.0.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	2744835883080 -> 2744835876792
+	2744835883080 [label="stage_14_c_atrous_identity_block.0.atrous_conv2d_bn_module2.0.bias
+ (256)" fillcolor=lightblue]
+	2744835878472 -> 2744835868040
+	2744835878472 [label="stage_14_c_atrous_identity_block.0.atrous_conv2d_bn_module2.1.weight
+ (256)" fillcolor=lightblue]
+	2744835878192 -> 2744835868040
+	2744835878192 [label="stage_14_c_atrous_identity_block.0.atrous_conv2d_bn_module2.1.bias
+ (256)" fillcolor=lightblue]
+	2744835862368 -> 2744835859456
+	2744835862368 [label="stage_14_c_atrous_identity_block.0.conv2d_bn_module3.0.weight
+ (256, 256, 1, 1)" fillcolor=lightblue]
+	2744835867200 -> 2744835859456
+	2744835867200 [label="stage_14_c_atrous_identity_block.0.conv2d_bn_module3.0.bias
+ (256)" fillcolor=lightblue]
+	2744835859568 -> 2744835855920
+	2744835859568 [label="stage_14_c_atrous_identity_block.0.conv2d_bn_module3.1.weight
+ (256)" fillcolor=lightblue]
+	2744835861248 -> 2744835855920
+	2744835861248 [label="stage_14_c_atrous_identity_block.0.conv2d_bn_module3.1.bias
+ (256)" fillcolor=lightblue]
+	2744835858160 -> 2744835856648
+	2744835845648 -> 2744835842176
+	2744835845648 [label="stage_14_d_conv2d_bn.0.conv2d_bn_module.0.weight
+ (64, 256, 1, 1)" fillcolor=lightblue]
+	2744835845368 -> 2744835842176
+	2744835845368 [label="stage_14_d_conv2d_bn.0.conv2d_bn_module.0.bias
+ (64)" fillcolor=lightblue]
+	2744835843408 -> 2744835839872
+	2744835843408 [label="stage_14_d_conv2d_bn.0.conv2d_bn_module.1.weight
+ (64)" fillcolor=lightblue]
+	2744835844136 -> 2744835839872
+	2744835844136 [label="stage_14_d_conv2d_bn.0.conv2d_bn_module.1.bias
+ (64)" fillcolor=lightblue]
+	2744835839480 -> 2744835839088
+	2744835839480 [label=ThresholdBackward0]
+	2744835841048 -> 2744835839480
+	2744835841048 [label=NativeBatchNormBackward]
+	2744835858784 -> 2744835841048
+	2744835858784 [label=ThnnConv2DBackward]
+	2744835878696 -> 2744835858784
+	2744835878696 [label=ThresholdBackward0]
+	2744835884536 -> 2744835878696
+	2744835884536 [label=AddBackward0]
+	2744835883864 -> 2744835884536
+	2744835883864 [label=NativeBatchNormBackward]
+	2744835891664 -> 2744835883864
+	2744835891664 [label=ThnnConv2DBackward]
+	2744835892672 -> 2744835891664
+	2744835892672 [label=ThresholdBackward0]
+	2744835905072 -> 2744835892672
+	2744835905072 [label=NativeBatchNormBackward]
+	2744835904904 -> 2744835905072
+	2744835904904 [label=ThnnConvDilated2DBackward]
+	2744835906192 -> 2744835904904
+	2744835906192 [label=ThresholdBackward0]
+	2744835906920 -> 2744835906192
+	2744835906920 [label=NativeBatchNormBackward]
+	2744835907032 -> 2744835906920
+	2744835907032 [label=ThnnConv2DBackward]
+	2744835886384 -> 2744835907032
+	2744835886384 [label=ThresholdBackward0]
+	2744835907424 -> 2744835886384
+	2744835907424 [label=AddBackward0]
+	2744835907536 -> 2744835907424
+	2744835907536 [label=NativeBatchNormBackward]
+	2744835985592 -> 2744835907536
+	2744835985592 [label=ThnnConv2DBackward]
+	2744835985816 -> 2744835985592
+	2744835985816 [label=ThresholdBackward0]
+	2744835986040 -> 2744835985816
+	2744835986040 [label=NativeBatchNormBackward]
+	2744835986152 -> 2744835986040
+	2744835986152 [label=ThnnConvDilated2DBackward]
+	2744835986376 -> 2744835986152
+	2744835986376 [label=ThresholdBackward0]
+	2744835986600 -> 2744835986376
+	2744835986600 [label=NativeBatchNormBackward]
+	2744835986712 -> 2744835986600
+	2744835986712 [label=ThnnConv2DBackward]
+	2744835985480 -> 2744835986712
+	2744835985480 [label=ThresholdBackward0]
+	2744835987104 -> 2744835985480
+	2744835987104 [label=AddBackward0]
+	2744835987216 -> 2744835987104
+	2744835987216 [label=NativeBatchNormBackward]
+	2744835987384 -> 2744835987216
+	2744835987384 [label=ThnnConv2DBackward]
+	2744835987608 -> 2744835987384
+	2744835987608 [label=ThresholdBackward0]
+	2744835987832 -> 2744835987608
+	2744835987832 [label=NativeBatchNormBackward]
+	2744835987944 -> 2744835987832
+	2744835987944 [label=ThnnConvDilated2DBackward]
+	2744835988168 -> 2744835987944
+	2744835988168 [label=ThresholdBackward0]
+	2744835988392 -> 2744835988168
+	2744835988392 [label=NativeBatchNormBackward]
+	2744835988504 -> 2744835988392
+	2744835988504 [label=ThnnConv2DBackward]
+	2744835841384 -> 2744835988504
+	2744835988728 -> 2744835988504
+	2744835988728 [label="stage_15_a_atrous_conv_block.0.conv2d_bn_module1.0.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	2744835988784 -> 2744835988504
+	2744835988784 [label="stage_15_a_atrous_conv_block.0.conv2d_bn_module1.0.bias
+ (256)" fillcolor=lightblue]
+	2744835988560 -> 2744835988392
+	2744835988560 [label="stage_15_a_atrous_conv_block.0.conv2d_bn_module1.1.weight
+ (256)" fillcolor=lightblue]
+	2744835988616 -> 2744835988392
+	2744835988616 [label="stage_15_a_atrous_conv_block.0.conv2d_bn_module1.1.bias
+ (256)" fillcolor=lightblue]
+	2744835988224 -> 2744835987944
+	2744835988224 [label="stage_15_a_atrous_conv_block.0.atrous_conv2d_bn_module2.0.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	2744835988280 -> 2744835987944
+	2744835988280 [label="stage_15_a_atrous_conv_block.0.atrous_conv2d_bn_module2.0.bias
+ (256)" fillcolor=lightblue]
+	2744835988000 -> 2744835987832
+	2744835988000 [label="stage_15_a_atrous_conv_block.0.atrous_conv2d_bn_module2.1.weight
+ (256)" fillcolor=lightblue]
+	2744835988056 -> 2744835987832
+	2744835988056 [label="stage_15_a_atrous_conv_block.0.atrous_conv2d_bn_module2.1.bias
+ (256)" fillcolor=lightblue]
+	2744835987664 -> 2744835987384
+	2744835987664 [label="stage_15_a_atrous_conv_block.0.conv2d_bn_module3.0.weight
+ (256, 256, 1, 1)" fillcolor=lightblue]
+	2744835987720 -> 2744835987384
+	2744835987720 [label="stage_15_a_atrous_conv_block.0.conv2d_bn_module3.0.bias
+ (256)" fillcolor=lightblue]
+	2744835987440 -> 2744835987216
+	2744835987440 [label="stage_15_a_atrous_conv_block.0.conv2d_bn_module3.1.weight
+ (256)" fillcolor=lightblue]
+	2744835987496 -> 2744835987216
+	2744835987496 [label="stage_15_a_atrous_conv_block.0.conv2d_bn_module3.1.bias
+ (256)" fillcolor=lightblue]
+	2744835987272 -> 2744835987104
+	2744835987272 [label=NativeBatchNormBackward]
+	2744835987552 -> 2744835987272
+	2744835987552 [label=ThnnConv2DBackward]
+	2744835841384 -> 2744835987552
+	2744835987888 -> 2744835987552
+	2744835987888 [label="stage_15_a_atrous_conv_block.0.conv2d_bn_module4.0.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	2744835988672 -> 2744835987552
+	2744835988672 [label="stage_15_a_atrous_conv_block.0.conv2d_bn_module4.0.bias
+ (256)" fillcolor=lightblue]
+	2744835987776 -> 2744835987272
+	2744835987776 [label="stage_15_a_atrous_conv_block.0.conv2d_bn_module4.1.weight
+ (256)" fillcolor=lightblue]
+	2744835988112 -> 2744835987272
+	2744835988112 [label="stage_15_a_atrous_conv_block.0.conv2d_bn_module4.1.bias
+ (256)" fillcolor=lightblue]
+	2744835986936 -> 2744835986712
+	2744835986936 [label="stage_15_b_atrous_identity_block.0.conv2d_bn_module1.0.weight
+ (256, 256, 1, 1)" fillcolor=lightblue]
+	2744835986992 -> 2744835986712
+	2744835986992 [label="stage_15_b_atrous_identity_block.0.conv2d_bn_module1.0.bias
+ (256)" fillcolor=lightblue]
+	2744835986768 -> 2744835986600
+	2744835986768 [label="stage_15_b_atrous_identity_block.0.conv2d_bn_module1.1.weight
+ (256)" fillcolor=lightblue]
+	2744835986824 -> 2744835986600
+	2744835986824 [label="stage_15_b_atrous_identity_block.0.conv2d_bn_module1.1.bias
+ (256)" fillcolor=lightblue]
+	2744835986432 -> 2744835986152
+	2744835986432 [label="stage_15_b_atrous_identity_block.0.atrous_conv2d_bn_module2.0.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	2744835986488 -> 2744835986152
+	2744835986488 [label="stage_15_b_atrous_identity_block.0.atrous_conv2d_bn_module2.0.bias
+ (256)" fillcolor=lightblue]
+	2744835986208 -> 2744835986040
+	2744835986208 [label="stage_15_b_atrous_identity_block.0.atrous_conv2d_bn_module2.1.weight
+ (256)" fillcolor=lightblue]
+	2744835986264 -> 2744835986040
+	2744835986264 [label="stage_15_b_atrous_identity_block.0.atrous_conv2d_bn_module2.1.bias
+ (256)" fillcolor=lightblue]
+	2744835985872 -> 2744835985592
+	2744835985872 [label="stage_15_b_atrous_identity_block.0.conv2d_bn_module3.0.weight
+ (256, 256, 1, 1)" fillcolor=lightblue]
+	2744835985928 -> 2744835985592
+	2744835985928 [label="stage_15_b_atrous_identity_block.0.conv2d_bn_module3.0.bias
+ (256)" fillcolor=lightblue]
+	2744835985648 -> 2744835907536
+	2744835985648 [label="stage_15_b_atrous_identity_block.0.conv2d_bn_module3.1.weight
+ (256)" fillcolor=lightblue]
+	2744835985704 -> 2744835907536
+	2744835985704 [label="stage_15_b_atrous_identity_block.0.conv2d_bn_module3.1.bias
+ (256)" fillcolor=lightblue]
+	2744835985480 -> 2744835907424
+	2744835907256 -> 2744835907032
+	2744835907256 [label="stage_15_c_atrous_identity_block.0.conv2d_bn_module1.0.weight
+ (256, 256, 1, 1)" fillcolor=lightblue]
+	2744835907312 -> 2744835907032
+	2744835907312 [label="stage_15_c_atrous_identity_block.0.conv2d_bn_module1.0.bias
+ (256)" fillcolor=lightblue]
+	2744835907088 -> 2744835906920
+	2744835907088 [label="stage_15_c_atrous_identity_block.0.conv2d_bn_module1.1.weight
+ (256)" fillcolor=lightblue]
+	2744835907144 -> 2744835906920
+	2744835907144 [label="stage_15_c_atrous_identity_block.0.conv2d_bn_module1.1.bias
+ (256)" fillcolor=lightblue]
+	2744835906640 -> 2744835904904
+	2744835906640 [label="stage_15_c_atrous_identity_block.0.atrous_conv2d_bn_module2.0.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	2744835906808 -> 2744835904904
+	2744835906808 [label="stage_15_c_atrous_identity_block.0.atrous_conv2d_bn_module2.0.bias
+ (256)" fillcolor=lightblue]
+	2744835906584 -> 2744835905072
+	2744835906584 [label="stage_15_c_atrous_identity_block.0.atrous_conv2d_bn_module2.1.weight
+ (256)" fillcolor=lightblue]
+	2744835906696 -> 2744835905072
+	2744835906696 [label="stage_15_c_atrous_identity_block.0.atrous_conv2d_bn_module2.1.bias
+ (256)" fillcolor=lightblue]
+	2744835894464 -> 2744835891664
+	2744835894464 [label="stage_15_c_atrous_identity_block.0.conv2d_bn_module3.0.weight
+ (256, 256, 1, 1)" fillcolor=lightblue]
+	2744835903784 -> 2744835891664
+	2744835903784 [label="stage_15_c_atrous_identity_block.0.conv2d_bn_module3.0.bias
+ (256)" fillcolor=lightblue]
+	2744835892336 -> 2744835883864
+	2744835892336 [label="stage_15_c_atrous_identity_block.0.conv2d_bn_module3.1.weight
+ (256)" fillcolor=lightblue]
+	2744835893456 -> 2744835883864
+	2744835893456 [label="stage_15_c_atrous_identity_block.0.conv2d_bn_module3.1.bias
+ (256)" fillcolor=lightblue]
+	2744835886384 -> 2744835884536
+	2744835867760 -> 2744835858784
+	2744835867760 [label="stage_15_d_conv2d_bn.0.conv2d_bn_module.0.weight
+ (64, 256, 1, 1)" fillcolor=lightblue]
+	2744835867928 -> 2744835858784
+	2744835867928 [label="stage_15_d_conv2d_bn.0.conv2d_bn_module.0.bias
+ (64)" fillcolor=lightblue]
+	2744835861360 -> 2744835841048
+	2744835861360 [label="stage_15_d_conv2d_bn.0.conv2d_bn_module.1.weight
+ (64)" fillcolor=lightblue]
+	2744835856368 -> 2744835841048
+	2744835856368 [label="stage_15_d_conv2d_bn.0.conv2d_bn_module.1.bias
+ (64)" fillcolor=lightblue]
+	2744835839144 -> 2744835838864
+	2744835839144 [label="stage_16_a_conv_block.0.conv2d_bn_module1.0.weight
+ (128, 256, 1, 1)" fillcolor=lightblue]
+	2744835839200 -> 2744835838864
+	2744835839200 [label="stage_16_a_conv_block.0.conv2d_bn_module1.0.bias
+ (128)" fillcolor=lightblue]
+	2744835838920 -> 2744835838752
+	2744835838920 [label="stage_16_a_conv_block.0.conv2d_bn_module1.1.weight
+ (128)" fillcolor=lightblue]
+	2744835838976 -> 2744835838752
+	2744835838976 [label="stage_16_a_conv_block.0.conv2d_bn_module1.1.bias
+ (128)" fillcolor=lightblue]
+	2744835838584 -> 2744835838304
+	2744835838584 [label="stage_16_a_conv_block.0.conv2d_bn_module2.0.weight
+ (128, 128, 3, 3)" fillcolor=lightblue]
+	2744835838640 -> 2744835838304
+	2744835838640 [label="stage_16_a_conv_block.0.conv2d_bn_module2.0.bias
+ (128)" fillcolor=lightblue]
+	2744835838360 -> 2744835838192
+	2744835838360 [label="stage_16_a_conv_block.0.conv2d_bn_module2.1.weight
+ (128)" fillcolor=lightblue]
+	2744835838416 -> 2744835838192
+	2744835838416 [label="stage_16_a_conv_block.0.conv2d_bn_module2.1.bias
+ (128)" fillcolor=lightblue]
+	2744835838024 -> 2744960319216
+	2744835838024 [label="stage_16_a_conv_block.0.conv2d_module3.0.weight
+ (128, 128, 1, 1)" fillcolor=lightblue]
+	2744835838080 -> 2744960319216
+	2744835838080 [label="stage_16_a_conv_block.0.conv2d_module3.0.bias
+ (128)" fillcolor=lightblue]
+	2744960319272 -> 2744960319048
+	2744960319272 [label="stage_16_a_conv_block.0.conv2d_module3.1.weight
+ (128)" fillcolor=lightblue]
+	2744960319328 -> 2744960319048
+	2744960319328 [label="stage_16_a_conv_block.0.conv2d_module3.1.bias
+ (128)" fillcolor=lightblue]
+	2744960319104 -> 2744960318936
+	2744960319104 [label=ThresholdBackward0]
+	2744960319384 -> 2744960319104
+	2744960319384 [label=ThnnConv2DBackward]
+	2744835839088 -> 2744960319384
+	2744835857208 -> 2744960319384
+	2744835857208 [label="stage_16_a_conv_block.0.conv2d_module4.0.weight
+ (128, 256, 1, 1)" fillcolor=lightblue]
+	2744835838136 -> 2744960319384
+	2744835838136 [label="stage_16_a_conv_block.0.conv2d_module4.0.bias
+ (128)" fillcolor=lightblue]
+	2744960318824 -> 2744960318656
+	2744960318824 [label=NativeBatchNormBackward]
+	2744960318992 -> 2744960318824
+	2744960318992 [label=ThnnConv2DBackward]
+	2744835838696 -> 2744960318992
+	2744835838696 [label=ThresholdBackward0]
+	2744835839256 -> 2744835838696
+	2744835839256 [label=NativeBatchNormBackward]
+	2744835894128 -> 2744835839256
+	2744835894128 [label=ThnnConv2DBackward]
+	2744835904792 -> 2744835894128
+	2744835904792 [label=ThresholdBackward0]
+	2744835907200 -> 2744835904792
+	2744835907200 [label=NativeBatchNormBackward]
+	2744835906976 -> 2744835907200
+	2744835906976 [label=ThnnConv2DBackward]
+	2744960318768 -> 2744835906976
+	2744835985984 -> 2744835906976
+	2744835985984 [label="stage_16_b_identity_block.0.con2d_bn_module1.0.weight
+ (128, 128, 1, 1)" fillcolor=lightblue]
+	2744835986320 -> 2744835906976
+	2744835986320 [label="stage_16_b_identity_block.0.con2d_bn_module1.0.bias
+ (128)" fillcolor=lightblue]
+	2744835907480 -> 2744835907200
+	2744835907480 [label="stage_16_b_identity_block.0.con2d_bn_module1.1.weight
+ (128)" fillcolor=lightblue]
+	2744835985536 -> 2744835907200
+	2744835985536 [label="stage_16_b_identity_block.0.con2d_bn_module1.1.bias
+ (128)" fillcolor=lightblue]
+	2744835906752 -> 2744835894128
+	2744835906752 [label="stage_16_b_identity_block.0.con2d_bn_module2.0.weight
+ (128, 128, 3, 3)" fillcolor=lightblue]
+	2744835906864 -> 2744835894128
+	2744835906864 [label="stage_16_b_identity_block.0.con2d_bn_module2.0.bias
+ (128)" fillcolor=lightblue]
+	2744835883304 -> 2744835839256
+	2744835883304 [label="stage_16_b_identity_block.0.con2d_bn_module2.1.weight
+ (128)" fillcolor=lightblue]
+	2744835886216 -> 2744835839256
+	2744835886216 [label="stage_16_b_identity_block.0.con2d_bn_module2.1.bias
+ (128)" fillcolor=lightblue]
+	2744835838808 -> 2744960318992
+	2744835838808 [label="stage_16_b_identity_block.0.con2d_bn_module3.0.weight
+ (128, 128, 3, 3)" fillcolor=lightblue]
+	2744835838472 -> 2744960318992
+	2744835838472 [label="stage_16_b_identity_block.0.con2d_bn_module3.0.bias
+ (128)" fillcolor=lightblue]
+	2744960319160 -> 2744960318824
+	2744960319160 [label="stage_16_b_identity_block.0.con2d_bn_module3.1.weight
+ (128)" fillcolor=lightblue]
+	2744835842792 -> 2744960318824
+	2744835842792 [label="stage_16_b_identity_block.0.con2d_bn_module3.1.bias
+ (128)" fillcolor=lightblue]
+	2744960318544 -> 2744960318376
+	2744960318544 [label=NativeBatchNormBackward]
+	2744960318712 -> 2744960318544
+	2744960318712 [label=ThnnConv2DBackward]
+	2744835839032 -> 2744960318712
+	2744835839032 [label=ThresholdBackward0]
+	2744835985760 -> 2744835839032
+	2744835985760 [label=NativeBatchNormBackward]
+	2744835986880 -> 2744835985760
+	2744835986880 [label=ThnnConv2DBackward]
+	2744835987328 -> 2744835986880
+	2744835987328 [label=ThresholdBackward0]
+	2744835988952 -> 2744835987328
+	2744835988952 [label=NativeBatchNormBackward]
+	2744835988448 -> 2744835988952
+	2744835988448 [label=ThnnConv2DBackward]
+	2744960318488 -> 2744835988448
+	2744835989176 -> 2744835988448
+	2744835989176 [label="stage_16_c_identity_block.0.con2d_bn_module1.0.weight
+ (128, 128, 1, 1)" fillcolor=lightblue]
+	2744835989232 -> 2744835988448
+	2744835989232 [label="stage_16_c_identity_block.0.con2d_bn_module1.0.bias
+ (128)" fillcolor=lightblue]
+	2744835988896 -> 2744835988952
+	2744835988896 [label="stage_16_c_identity_block.0.con2d_bn_module1.1.weight
+ (128)" fillcolor=lightblue]
+	2744835989064 -> 2744835988952
+	2744835989064 [label="stage_16_c_identity_block.0.con2d_bn_module1.1.bias
+ (128)" fillcolor=lightblue]
+	2744835988336 -> 2744835986880
+	2744835988336 [label="stage_16_c_identity_block.0.con2d_bn_module2.0.weight
+ (128, 128, 3, 3)" fillcolor=lightblue]
+	2744835987160 -> 2744835986880
+	2744835987160 [label="stage_16_c_identity_block.0.con2d_bn_module2.0.bias
+ (128)" fillcolor=lightblue]
+	2744835987048 -> 2744835985760
+	2744835987048 [label="stage_16_c_identity_block.0.con2d_bn_module2.1.weight
+ (128)" fillcolor=lightblue]
+	2744835986096 -> 2744835985760
+	2744835986096 [label="stage_16_c_identity_block.0.con2d_bn_module2.1.bias
+ (128)" fillcolor=lightblue]
+	2744835839536 -> 2744960318712
+	2744835839536 [label="stage_16_c_identity_block.0.con2d_bn_module3.0.weight
+ (128, 128, 3, 3)" fillcolor=lightblue]
+	2744835906080 -> 2744960318712
+	2744835906080 [label="stage_16_c_identity_block.0.con2d_bn_module3.0.bias
+ (128)" fillcolor=lightblue]
+	2744960318880 -> 2744960318544
+	2744960318880 [label="stage_16_c_identity_block.0.con2d_bn_module3.1.weight
+ (128)" fillcolor=lightblue]
+	2744835885824 -> 2744960318544
+	2744835885824 [label="stage_16_c_identity_block.0.con2d_bn_module3.1.bias
+ (128)" fillcolor=lightblue]
+	2744960318208 -> 2744960317928
+	2744960318208 [label="stage_16_d_conv2d_bn.0.conv2d_bn_module.0.weight
+ (16, 128, 1, 1)" fillcolor=lightblue]
+	2744960318264 -> 2744960317928
+	2744960318264 [label="stage_16_d_conv2d_bn.0.conv2d_bn_module.0.bias
+ (16)" fillcolor=lightblue]
+	2744960317984 -> 2744960317816
+	2744960317984 [label="stage_16_d_conv2d_bn.0.conv2d_bn_module.1.weight
+ (16)" fillcolor=lightblue]
+	2744960318040 -> 2744960317816
+	2744960318040 [label="stage_16_d_conv2d_bn.0.conv2d_bn_module.1.bias
+ (16)" fillcolor=lightblue]
+	2744960317536 -> 2744960317256
+	2744960317536 [label="stage_17_a_conv_block.0.conv2d_bn_module1.0.weight
+ (12, 16, 1, 1)" fillcolor=lightblue]
+	2744960317592 -> 2744960317256
+	2744960317592 [label="stage_17_a_conv_block.0.conv2d_bn_module1.0.bias
+ (12)" fillcolor=lightblue]
+	2744960317312 -> 2744960317032
+	2744960317312 [label="stage_17_a_conv_block.0.conv2d_bn_module1.1.weight
+ (12)" fillcolor=lightblue]
+	2744960317368 -> 2744960317032
+	2744960317368 [label="stage_17_a_conv_block.0.conv2d_bn_module1.1.bias
+ (12)" fillcolor=lightblue]
+	2744836837448 -> 2744836837728
+	2744836837448 [label="stage_17_a_conv_block.0.conv2d_bn_module2.0.weight
+ (12, 12, 3, 3)" fillcolor=lightblue]
+	2744836838456 -> 2744836837728
+	2744836838456 [label="stage_17_a_conv_block.0.conv2d_bn_module2.0.bias
+ (12)" fillcolor=lightblue]
+	2744836837672 -> 2744836838512
+	2744836837672 [label="stage_17_a_conv_block.0.conv2d_bn_module2.1.weight
+ (12)" fillcolor=lightblue]
+	2744836837616 -> 2744836838512
+	2744836837616 [label="stage_17_a_conv_block.0.conv2d_bn_module2.1.bias
+ (12)" fillcolor=lightblue]
+	2744836838008 -> 2744836837840
+	2744836838008 [label="stage_17_a_conv_block.0.conv2d_module3.0.weight
+ (12, 12, 1, 1)" fillcolor=lightblue]
+	2744836837952 -> 2744836837840
+	2744836837952 [label="stage_17_a_conv_block.0.conv2d_module3.0.bias
+ (12)" fillcolor=lightblue]
+	2744836838232 -> 2744836838568
+	2744836838232 [label="stage_17_a_conv_block.0.conv2d_module3.1.weight
+ (12)" fillcolor=lightblue]
+	2744836838176 -> 2744836838568
+	2744836838176 [label="stage_17_a_conv_block.0.conv2d_module3.1.bias
+ (12)" fillcolor=lightblue]
+	2744836838344 -> 2744796937856
+	2744836838344 [label=ThresholdBackward0]
+	2744836838120 -> 2744836838344
+	2744836838120 [label=ThnnConv2DBackward]
+	2744960317480 -> 2744836838120
+	2744836837560 -> 2744836838120
+	2744836837560 [label="stage_17_a_conv_block.0.conv2d_module4.0.weight
+ (12, 16, 1, 1)" fillcolor=lightblue]
+	2744836838400 -> 2744836838120
+	2744836838400 [label="stage_17_a_conv_block.0.conv2d_module4.0.bias
+ (12)" fillcolor=lightblue]
+	2744796938024 -> 2744796937688
+	2744796938024 [label="stage_17_b_conv2d_soft.0.weight
+ (2, 12, 1, 1)" fillcolor=lightblue]
+	2744796937968 -> 2744796937688
+	2744796937968 [label="stage_17_b_conv2d_soft.0.bias
+ (2)" fillcolor=lightblue]
+}
